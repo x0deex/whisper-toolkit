@@ -177,24 +177,6 @@ whisper video.mp4 --model medium --task translate --output_format srt
 python main.py
 ```
 
-или
-
-```bash
-py main.py
-```
-
-Если скрипт принимает параметры:
-
-```bash
-python main.py --input audio.mp3
-```
-
-или
-
-```bash
-python main.py audio.mp3
-```
-
 Чтобы посмотреть список поддерживаемых параметров:
 
 ```bash

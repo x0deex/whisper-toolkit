@@ -143,30 +143,6 @@ whisper audio.mp3 --model tiny
 
 ---
 
-# ▶️ Использование через Whisper
-
-Базовый синтаксис:
-
-```bash
-whisper <путь_к_файлу> [--model <модель>] [--language <язык>]
-```
-
-### Примеры
-
-Распознавание русского языка:
-
-```bash
-whisper meeting.wav --model small --language Russian
-```
-
-Перевод речи и экспорт субтитров:
-
-```bash
-whisper video.mp4 --model medium --task translate --output_format srt
-```
-
----
-
 # 🐍 Запуск через `main.py`
 
 Если проект содержит файл **`main.py`**, можно использовать его вместо команды `whisper`.
@@ -222,8 +198,3 @@ large
 - PyTorch
 - FFmpeg
 - Python
-
----
-- Официальный репозиторий Whisper
-- Документация PyTorch
-- Сборки FFmpeg
